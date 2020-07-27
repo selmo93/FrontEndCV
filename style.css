@@ -1,4 +1,37 @@
+.style1 {
+    color: darkblue;
+    margin-top: 3%;
+    text-align: center;
+}
+.style2 {
+    color: darkblue;
+    margin-top: 3%;
+    text-align: Left;
+}
 
-    .style1 { color : darkblue;
-        text-align: center;
-    }
+.img1 {
+ 
+    width: 300px;
+}
+
+.body {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.alinhadireita {
+    margin-left: 2%;
+    text-align: left;
+    font-size: large;
+}
+
+.button1{
+    border: darkblue;
+    border-radius: 1px;
+    text-align: center;
+    display: inline-flex;
+    float: right;
+    margin-right: 2%;
+}
