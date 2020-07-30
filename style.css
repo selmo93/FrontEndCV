@@ -1,6 +1,6 @@
 .style1 {
     color: darkblue;
-    margin-top: 3%;
+    margin-top: 1%;
     text-align: center;
 }
 
@@ -10,26 +10,43 @@
     text-align: Left;
 }
 
-.tabela1{
+.tabela1 {
+    margin-top: 10px;
+    text-align: right;
     display: grid;
-    grid-template-columns: 100px 500px;
+    grid-template-columns: 200px 200px;
 }
 
 .img1 {
-    width: 300px;
+    width: 400px;
+}
+
+.head {
+    background-color: dodgerblue;
+    color: white;
+    font-size: large;
 }
 
 .body {
+    font-size: larger;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
+.footer {
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+    font-size: large;
+    margin-top: 15%;
+}
+
 .alinhadireita {
     margin-left: 2%;
     text-align: left;
-    font-size: large;
+    font-size: larger;
 }
 
 .button1 {
@@ -37,6 +54,6 @@
     border-radius: 1px;
     text-align: center;
     display: inline-flex;
-    float: right;
+    float: left;
     margin-right: 2%;
 }
