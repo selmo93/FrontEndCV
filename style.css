@@ -1,11 +1,11 @@
 .style1 {
-    color: darkblue;
+    color: whitesmoke;
     margin-top: 1%;
     text-align: center;
 }
 
 .style2 {
-    color: darkblue;
+    color: whitesmoke;
     margin-top: 3%;
     text-align: Left;
 }
@@ -22,12 +22,23 @@
 }
 
 .head {
-    background-color: dodgerblue;
-    color: white;
+    line-height: 25px;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
     font-size: large;
 }
+.body1{
+    background-color: dimgray;
+    font-size: larger;
+    color: whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
-.body {
+.body2 {
     font-size: larger;
     margin-left: 10%;
     margin-right: 10%;
@@ -36,9 +47,9 @@
 }
 
 .footer {
+    line-height: 50px;
     text-align: center;
-    background-color: dodgerblue;
-    color: white;
+    color: whitesmoke;
     font-size: large;
     margin-top: 15%;
 }
@@ -47,13 +58,4 @@
     margin-left: 2%;
     text-align: left;
     font-size: larger;
-}
-
-.button1 {
-    border: darkblue;
-    border-radius: 1px;
-    text-align: center;
-    display: inline-flex;
-    float: left;
-    margin-right: 2%;
 }

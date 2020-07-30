@@ -2,22 +2,28 @@
 <html>
 
 <head>
-    <title>Competência</title>
+    <title>Currículo</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link width rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
-    <div class="head">
-        <button onclick="buttonHome()">HOME<br> &nbsp; </button>
-        <button onclick="buttonExp()">EXPERIÊNCIA<br>PROFISSIONAL</button>
-        <button onclick="buttonEdu()">EDUCAÇÃO<br>FORMAÇÃO</button>
-        <button onclick="buttonComp()">COMPETÊNCIAS<br>PESSOAIS</button>
+<body class="body1">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <nav class="nav nav-masthead justify-content-center">
+                    <button class="nav-link" onclick="buttonHome()">HOME<br> &nbsp; </button>
+                    <button class="nav-link" onclick="buttonExp()">EXPERIÊNCIA<br>PROFISSIONAL</button>
+                    <button class="nav-link" onclick="buttonEdu()">EDUCAÇÃO<br>FORMAÇÃO</button>
+                    <button class="nav-link active" onclick="buttonComp()">COMPETÊNCIAS<br>PESSOAIS</button>
+                </nav>
+            </div>
+        </header>
     </div>
     <br>
-    <br>
-    <br>
-    <h1 class="style1"><u>CURRICULUM VITAE</u></h1>
-    <div class="body">
+    <div>
         <section>
             <h1 class="style2"><u>COMPETÊNCIAS PESSOAIS</u></h1>
             <table>
@@ -76,16 +82,16 @@
 </footer>
 <script>
     function buttonHome() {
-        window.open("C:/Users/Ansel/Documents/Codigo/FrontEndCV/mainpage.html");
+        window.open("mainpage.html");
     }
     function buttonExp() {
-        window.open("C:/Users/Ansel/Documents/Codigo/FrontEndCV/experiencia.html");
+        window.open("experiencia.html");
     }
     function buttonEdu() {
-        window.open("C:/Users/Ansel/Documents/Codigo/FrontEndCV/educacao.html");
+        window.open("educacao.html");
     }
     function buttonComp() {
-        window.open("C:/Users/Ansel/Documents/Codigo/FrontEndCV/competencia.html");
+        window.open("competencia.html");
     }
 </script>
 
